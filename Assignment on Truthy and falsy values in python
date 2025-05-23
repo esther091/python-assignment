@@ -1,5 +1,5 @@
 Truthy and Falsy values in strings, numbers, lists, tuple, dictionary, set:
-In Python, truthy  and falsy  values determine how expressions evaluate in a boolean context (like if, while, or bool() conversion). Here's a breakdown of truthy and falsy values for different data types:
+In Python, truthy  and falsy values determine how expressions evaluate in a boolean context (like if, while, or bool() conversion). Here's a breakdown of truthy and falsy values for different data types:
 ________________________________________
 Strings
 Falsy : "" (empty string)
