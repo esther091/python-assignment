@@ -1,0 +1,29 @@
+Logical Operators include:
+1. and (Logical AND)
+* Returns True only if both operands are truthy.
+* Short-circuits: stops evaluation as soon as it finds a falsy value.
+Example;
+True and True      # True
+True and False     # False
+0 and 5            # 0 (falsy)
+5 and 0            # 0 (falsy)
+5 and 10           # 10 (last truthy value)
+
+2. or (Logical OR)
+* Returns True if at least one operand is truthy.
+* Short-circuits: stops at the first truthy value.
+Example;
+False or True      # True
+0 or 5             # 5 (first truthy)
+5 or 0             # 5 (first truthy)
+0 or []            # [] (still falsy)
+0 or [] or "hi"    # "hi" (first truthy)
+
+3. not (Logical NOT)
+* Returns the opposite boolean value.
+* Only works with one operand.
+Example;
+not True           # False
+not False          # True
+not 0              # True (0 is falsy)
+not "hello"        # False ("hello" is truthy)
